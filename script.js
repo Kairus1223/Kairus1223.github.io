@@ -24,6 +24,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 const form = document.querySelector('.contact-form');
 form.addEventListener('submit', (e) => {
     e.preventDefault();
-    alert('Спасибо за сообщение! (Это демо-форма)');
+    alert('Спасибо за сообщение! но лучше напишите на почту или в телеграм, данные снизу)');
     form.reset();
 });
