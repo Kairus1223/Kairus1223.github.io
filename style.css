@@ -215,3 +215,15 @@ section h2 {
         font-size: 1.2rem;
     }
 }
+/* Центрирование контента в секции "Обо мне" */
+.about .container {
+    text-align: center;
+}
+
+/* Ограничиваем ширину текста для лучшей читаемости */
+.about .container p {
+    max-width: 750px;
+    margin: 0 auto 2rem auto;
+    line-height: 1.7;
+    font-size: 1.1rem;
+}
